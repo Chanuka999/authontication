@@ -1,0 +1,94 @@
+/* styles.css */
+.sign-up-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f4f4f9;
+  padding: 20px;
+}
+
+.sign-up-form {
+  background-color: #ffffff;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+}
+
+.sign-up-form h2 {
+  margin-bottom: 30px;
+  font-size: 24px;
+  color: #333;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.sign-up-form label {
+  display: block;
+  text-align: left;
+  margin-bottom: 8px;
+  font-size: 16px;
+  color: #555;
+  font-weight: 500;
+}
+
+.sign-up-form input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 16px;
+  color: #333;
+  box-sizing: border-box;
+  transition: border-color 0.3s ease;
+}
+
+.sign-up-form input:focus {
+  outline: none;
+  border-color: #007bff;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.3);
+}
+
+.sign-up-form button {
+  width: 100%;
+  padding: 12px;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.sign-up-form button:hover {
+  background-color: #0056b3;
+}
+
+.sign-up-form button:focus {
+  outline: none;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+/* Responsive design */
+@media (max-width: 480px) {
+  .sign-up-form {
+    padding: 20px;
+    max-width: 90%;
+  }
+
+  .sign-up-form h2 {
+    font-size: 20px;
+  }
+
+  .sign-up-form input,
+  .sign-up-form button {
+    font-size: 14px;
+    padding: 10px;
+  }
+}
